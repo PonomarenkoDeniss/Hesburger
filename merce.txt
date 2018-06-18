@@ -1,0 +1,10 @@
+Majoneze ar gurkiem |0.40 
+Majoneze ar papriku |0.60 
+Cili majoneze       |0.60 
+Karija majoneze     |0.60 
+Cezara salatu merce |0.70 
+Kiploku salatu merce|0.70 
+Viegle majas salatu merce|0.70 
+Saldkaba merce      |0.80 
+Barbekju merce      |0.90 
+Sinepes             |0.90

@@ -1,0 +1,4 @@
+Sojas tortilijas komplekts          |4.40
+Vistas tortilijas lielais komplekts |5.20
+Sojas tortilijas lielais komplekts  |5.20
+Tortilija ar vistas galu komplekts  |4.40

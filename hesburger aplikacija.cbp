@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="hesburger aplikacija" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/hesburger aplikacija" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="include/produkti" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/hesburger aplikacija" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="include/produkti" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/ADMIN.H" />
+		<Unit filename="include/Lietotajs.h" />
+		<Unit filename="include/USER.H" />
+		<Unit filename="include/produkti/brokastis.h" />
+		<Unit filename="include/produkti/burgerss.h" />
+		<Unit filename="include/produkti/deserts.h" />
+		<Unit filename="include/produkti/dzeriens.h" />
+		<Unit filename="include/produkti/kartupelis.h" />
+		<Unit filename="include/produkti/merce.h" />
+		<Unit filename="include/produkti/produktii.h" />
+		<Unit filename="include/produkti/salats.h" />
+		<Unit filename="include/produkti/tortila.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/ADMIN.CPP" />
+		<Unit filename="src/Lietotajs.cpp" />
+		<Unit filename="src/USER.CPP" />
+		<Unit filename="src/produkti/brokastis.cpp" />
+		<Unit filename="src/produkti/burgerss.cpp" />
+		<Unit filename="src/produkti/deserts.cpp" />
+		<Unit filename="src/produkti/dzeriens.cpp" />
+		<Unit filename="src/produkti/kartupelis.cpp" />
+		<Unit filename="src/produkti/merce.cpp" />
+		<Unit filename="src/produkti/produktii.cpp" />
+		<Unit filename="src/produkti/salats.cpp" />
+		<Unit filename="src/produkti/tortila.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

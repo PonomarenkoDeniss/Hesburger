@@ -1,0 +1,5 @@
+Bekona burgers   |2.80
+Hamburgers       |0.95
+Rudzu bugers     |2.70
+Arizonas burgers |2.70
+Kebaba burgers   |2.80

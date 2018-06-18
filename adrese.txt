@@ -1,0 +1,32 @@
+| Adazi | T/C Apelsins |
+| Bauska | Pioneru iela 2 |
+| Daugavpils| Smilsu iela|
+| Daugavpils| Rigas iela |
+| Jekabpils | Rigas iela |
+| Kuldiga | Suru iela |
+| Liepaja | K.Zales iela |
+| Riga | Marupe |
+| Riga | Maskavas iela |
+| Riga | Brivibas gatve |
+| Riga | Brivibas gatve |
+| Riga | Dzelzavas iela |
+| Riga | A.Deglavas iela |
+| Riga | A.Saharova iela |
+| Riga | T/C AZUR | 
+| Riga | T/C DOLE |
+| Riga | Brivibas iela90 |
+| Riga | Skanstes iela7 |
+| Riga | Brivibas iela62 |
+| Riga | Kr.Barona iela44 |
+| Riga | Merkela iela6 |
+| Riga | T/C ORIGO |
+| Riga | Valnu iela34 |
+| Riga | Skunu iela3 |
+| Riga | T/C Olimoia |
+| Riga | Darzciema iela 42 |
+| Riga | Kurzemes prosp 166 |
+| Riga | Vienibas gatve 77 |
+| Riga | Vienibas gatve 170 |
+| Tukums | Raudas iela 14 |
+| Ventspils | Aleksandra iela 2 |
+| Ventspils | Vienibas gatve | 

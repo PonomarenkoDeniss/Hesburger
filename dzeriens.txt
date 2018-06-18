@@ -1,0 +1,21 @@
+Coca-Cola 0.25L |1.00
+Coca-Cola 0.40L |1.25
+Coca-Cola 0.50L |1.45
+Cola Zero       |1.00
+Cola Zero 0.40L |1.25
+Cola Zero 0.50L |1.45
+Sprite 	        |1.00
+Sprite 0.40L    |1.25
+Sprite 0.50L    |1.45
+Fanta 0.25L     |1.00
+Fanta 0.40L     |1.25
+Fanta 0.50L     |1.45
+Abolu dzeriens  |0.60
+Cappy Abolu sula|1.20
+Cappy Mult. sula|1.20
+Cappy Apels.sula|1.20
+Zemenu piens    |0.60
+Bonaqua gazets  |1.00
+Bonaqua negazets|1.00
+Ledus teja(pers)|1.40
+ledus teja(citr)|1.40    
