@@ -11,6 +11,7 @@ class kartupelis : public produktii
         virtual ~kartupelis();
 
         void kartowka();
+        void nopirktKart();
 
     protected:
 

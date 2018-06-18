@@ -10,6 +10,7 @@ class tortila : public produktii
         virtual ~tortila();
 
         void tortilija();
+        void nopitkrTort();
 
     protected:
 

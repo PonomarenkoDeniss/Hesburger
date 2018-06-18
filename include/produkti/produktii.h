@@ -22,6 +22,16 @@ class produktii
         virtual void sous();
         virtual void saldejums();
 
+        virtual void nopirktBrokast();
+        virtual void nopirktBurg();
+        virtual void nopitkrTort();
+        virtual void NopirktDzer();
+        virtual void NopirktKart();
+        virtual void nopirktMerce();
+        virtual void nopirktSalats();
+        virtual void nopirktDes();
+
+
 
         void dzesana(string ,string);
         void pievienosana(string ,string );

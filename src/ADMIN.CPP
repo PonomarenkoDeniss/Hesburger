@@ -57,8 +57,8 @@ void Admin::dzesana(string nosaukums,string nosaukumss){
     filee.close();
 }
 
-void Admin::pievenot_rest(string pilseta,string iela,string nosaukums){
-    string s;
+void Admin::pievenot_rest(string nosaukums){
+    string s,pilseta,iela;
     cout<<"Ievadiet pilsetu"<<endl;
     fflush(stdin);
     getline(cin,pilseta);
@@ -67,12 +67,9 @@ void Admin::pievenot_rest(string pilseta,string iela,string nosaukums){
     cout<<"Ievadiet ielu "<<endl;
     getline(cin,iela);
 
-    ifstream file(string(string(nosaukums)).c_str());
-    file.close();
-
     ofstream fout((string(string(nosaukums)).c_str()),ios::app);
     fout<<"| "<<pilseta<<" | "<<iela<<" | "<<endl;
-    file.close();
+    fout.close();
 }
 
 void Admin::MainMenu(){
@@ -88,30 +85,23 @@ void Admin::MainMenu(){
         cout<<"MENU"<<endl;
         cout<<"1-PRODUCTS"<<endl;
         cout<<"2-SHOW Restaurants"<<endl;
-        cout<<"3-EXIT//no"<<endl;
+        cout<<"3-EXIT"<<endl;
         cout<<""<<endl;
         cin>>izvele;
 
         switch(izvele){
             case 1:{
                 this ->products();
-            break;}
+                break;
+            }
 
             case 2:{
                 this ->show_restaurants();
-            break;}
+                break;
+            }
         }
     }while(izvele!=3);
     }
-}
-
-void Admin::restaurans(){//DONE
-    string pilseta,iela,nosaukums;
-    nosaukums="adrese.txt";
-    pilseta=pilseta;
-    iela=iela;
-    pievenot_rest(pilseta,iela,nosaukums);
-    cout<<""<<endl;
 }
 
 void Admin::products(){//DONE
@@ -185,6 +175,8 @@ void Admin::products(){//DONE
             break;}
        }
         }while(izvele!=9);
+
+
 }
 
 void Admin::show_restaurants(){
@@ -211,12 +203,15 @@ void Admin::show_restaurants(){
             nosaukums="adrese.txt";
             nosaukumss="temp.txt";
             dzesana(nosaukums,nosaukumss);
+            break;
+        }
 
-        break;}
-
-        case 3:{
-            restaurans();
-        break;}
+        case 2:{
+            string nosaukums;
+            nosaukums="adrese.txt";
+            pievenot_rest(nosaukums);
+            break;
+        }
     }
 
 }

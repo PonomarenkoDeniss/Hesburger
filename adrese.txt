@@ -29,4 +29,4 @@
 | Riga | Vienibas gatve 170 |
 | Tukums | Raudas iela 14 |
 | Ventspils | Aleksandra iela 2 |
-| Ventspils | Vienibas gatve | 
+| dss | dd | 

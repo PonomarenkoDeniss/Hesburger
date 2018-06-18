@@ -9,7 +9,7 @@ class Admin : public Lietotajs {
         Admin();
         virtual ~Admin();
 
-        void pievenot_rest(string, string, string);
+        void pievenot_rest(string);
         void dzesana(string, string);
         void labosana(string, string);
 

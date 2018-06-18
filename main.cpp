@@ -22,7 +22,7 @@ int main(){
 
     switch(izvele){
 
-        case 1:gold->MenuUser();
+        case 1:gold->Menu();
         break;
 
         case 2:keks->MainMenu();

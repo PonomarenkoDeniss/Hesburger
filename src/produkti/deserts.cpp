@@ -21,9 +21,8 @@ void deserts::saldejums(){
 
     cout<<""<<endl;
     cout<<"1-Dzest:"<<endl;
-    cout<<"2-Labot:"<<endl;
-    cout<<"3-Pievienot:"<<endl;
-    cout<<"4-BACK"<<endl;
+    cout<<"2-Pievienot:"<<endl;
+    cout<<"3-BACK"<<endl;
     cout<<""<<endl;
 
     cin>>izvele;
@@ -35,15 +34,22 @@ void deserts::saldejums(){
             nosaukumss="temp.txt";
             produktii *a=new produktii;
             a->dzesana(nosaukums,nosaukumss);
-        break;}
-
-        case 3:{
+            break;
+        }
+        case 2:{
             string nosaukums,temp;
             nosaukums="deserts.txt";
             temp="desert";
             produktii * arg = new produktii;
             arg->pievienosana(nosaukums,temp);
-        break;}
+            break;
+        }
     }
+}
 
+void deserts::nopirktDes(){
+    string nosaukums;
+    nosaukums="deserts.txt";
+    produktii * kek = new produktii;
+    kek->Nopirkt(nosaukums);
 }

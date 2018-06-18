@@ -3,6 +3,7 @@
 #include <Lietotajs.h>
 
 
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -76,18 +77,15 @@ void produktii::dzesana(string nosaukums,string nosaukumss){
 }
 
 void produktii::Nopirkt(string nosaukums){
+
+
     int izvele;
     cout<<"Gribi nopirkt ? 1-Ja 0-Ne:";
     cin>>izvele;
-
     if(izvele){
 
-
-
-        Lietotajs * la = new Lietotajs;
+        Lietotajs * la ;
         la->izvade(nosaukums);
-
-
 
         ifstream brokastiss(string(string(nosaukums)).c_str());
         int line_number_now;
@@ -130,7 +128,7 @@ void produktii::Nopirkt(string nosaukums){
                             getline(konts,konta_numurs,',');
                             getline (konts, nauda_konta);
 
-                                double outt;
+                                int outt;
                                 stringstream stt;
                                 stt << nauda_konta;
                                 stt >> outt;
@@ -145,7 +143,11 @@ void produktii::Nopirkt(string nosaukums){
                                     output<<konta_numurs<<","<<summa;
                                 }
                                         else{
-                                            cout<<"Nepietiek lidzekljus"<<endl;
+                                                cout<<""<<endl;
+                                                cout<<"Nepietiek lidzekljus"<<endl;
+                                                cout<<"Pievienojiet karti!"<<endl;
+                                                cout<<""<<endl;
+                                                //system("pause");
                                             break;
                                             }
                             }
@@ -192,3 +194,24 @@ void produktii::saldejums(){
 }
 
 
+
+void produktii::nopirktBrokast(){
+}
+
+void produktii::nopirktBurg(){
+}
+
+void produktii::nopitkrTort(){
+}
+
+void produktii::NopirktDzer(){
+}
+
+void produktii::NopirktKart(){
+}
+void produktii::nopirktMerce(){
+}
+void produktii::nopirktSalats(){
+}
+void produktii::nopirktDes(){
+}

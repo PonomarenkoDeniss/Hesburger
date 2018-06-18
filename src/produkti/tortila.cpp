@@ -22,9 +22,8 @@ void tortila::tortilija(){
 
     cout<<""<<endl;
     cout<<"1-Dzest:"<<endl;
-    cout<<"2-Labot:"<<endl;
-    cout<<"3-Pievienot:"<<endl;
-    cout<<"4-BACK"<<endl;
+    cout<<"2-Pievienot:"<<endl;
+    cout<<"3-BACK"<<endl;
     cout<<""<<endl;
 
     cin>>izvele;
@@ -37,7 +36,7 @@ void tortila::tortilija(){
             dzesana(nosaukums,nosaukumss);
         break;}
 
-        case 3:{
+        case 2:{
             string nosaukums,temp;
             nosaukums="tortilas.txt";
             temp="tartilija";
@@ -45,4 +44,11 @@ void tortila::tortilija(){
             arg->pievienosana(nosaukums,temp);
         }
     }
+}
+
+void tortila::nopitkrTort(){
+    string nosaukums;
+    nosaukums="tortilas.txt";
+    produktii * kek = new produktii;
+    kek->Nopirkt(nosaukums);
 }

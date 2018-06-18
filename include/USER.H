@@ -11,9 +11,10 @@ class USER : public Lietotajs
         USER();
         virtual ~USER();
 
-        void MenuUser();
+        void Nopirkt();
 
-        void Nopirkt(string);
+        void konts(string);
+        void Menu();
 
 
 

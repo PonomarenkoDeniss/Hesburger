@@ -11,6 +11,7 @@ class deserts : public produktii
         virtual ~deserts();
 
         void saldejums();
+        void nopirktDes();
 
     protected:
 

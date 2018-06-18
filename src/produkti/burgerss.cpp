@@ -18,7 +18,7 @@ void burgerss::burgersShot(){
         string nosaukums;
 
         nosaukums="burgers.txt";
-        Lietotajs* arg=new Lietotajs;
+        Lietotajs* arg;
         arg ->izvade(nosaukums);
 
         cout<<""<<endl;

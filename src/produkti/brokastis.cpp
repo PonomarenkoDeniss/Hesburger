@@ -13,12 +13,12 @@ brokastis::~brokastis()
 }
 
 void brokastis::brokastinsShow(){
-    int izvele;
 
+    int izvele;
     string nosaukums;
     nosaukums="brokastiss.txt";
     cout<<" "<<endl;
-    Lietotajs *a=new Lietotajs;
+    Lietotajs *a;
     a->izvade(nosaukums);
 
     cout<<""<<endl;
@@ -36,15 +36,17 @@ void brokastis::brokastinsShow(){
             nosaukumss="temp.txt";
             produktii *a=new produktii;
             a->dzesana(nosaukums,nosaukumss);
-        break;}
+            break;
+        }
 
         case 2:{
-                string nosaukums,temp;
-                nosaukums="brokastiss.txt";
-                temp="brokastis";
-                produktii * arg = new produktii;
-                arg->pievienosana(nosaukums,temp);
-        break;}
+            string nosaukums,temp;
+            nosaukums="brokastiss.txt";
+            temp="brokastis";
+            produktii * arg = new produktii;
+            arg->pievienosana(nosaukums,temp);
+            break;
+        }
     }
 }
 

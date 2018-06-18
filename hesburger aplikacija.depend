@@ -36,13 +36,13 @@
 1524657099 h:\c++\hesburger aplikacija\include\saldejums.h
 	<Ediens.h>
 
-1529248108 source:e:\hesburger aplikacija\main.cpp
+1529331912 source:e:\hesburger aplikacija\main.cpp
 	<iostream>
 	"include\Admin.h"
 	"include\Guest.h"
 	"USER.H"
 
-1529248108 e:\hesburger aplikacija\include\admin.h
+1529315068 e:\hesburger aplikacija\include\admin.h
 	<iostream>
 	"Lietotajs.h"
 
@@ -56,7 +56,7 @@
 	<string>
 	<iostream>
 
-1529249276 source:e:\hesburger aplikacija\src\admin.cpp
+1529315556 source:e:\hesburger aplikacija\src\admin.cpp
 	<iostream>
 	<fstream>
 	<string>
@@ -84,7 +84,7 @@
 	"include\Guest.h"
 	"USER.H"
 
-1529248108 d:\hesburger aplikacija\include\admin.h
+1529315068 d:\hesburger aplikacija\include\admin.h
 	<iostream>
 	"Lietotajs.h"
 
@@ -92,7 +92,7 @@
 	<string>
 	<iostream>
 
-1529312034 source:d:\hesburger aplikacija\src\admin.cpp
+1529315556 source:d:\hesburger aplikacija\src\admin.cpp
 	<iostream>
 	<fstream>
 	<string>
@@ -164,7 +164,7 @@
 1526126484 source:e:\hesburger aplikacija\src\produkti.cpp
 	"produkti.h"
 
-1529311804 source:d:\hesburger aplikacija\src\produkti\burgerss.cpp
+1529315588 source:d:\hesburger aplikacija\src\produkti\burgerss.cpp
 	"burgerss.h"
 	<iostream>
 	"Lietotajs.h"
@@ -173,7 +173,7 @@
 	<produktii.h>
 	<iostream>
 
-1529250936 d:\hesburger aplikacija\include\produkti\produktii.h
+1529316180 d:\hesburger aplikacija\include\produkti\produktii.h
 	<iostream>
 	<iostream>
 	<fstream>
@@ -200,7 +200,7 @@
 1526286128 d:\hesburger aplikacija\include\produkti\bonus.h
 	<produktii.h>
 
-1529311268 source:d:\hesburger aplikacija\src\produkti\brokastis.cpp
+1529315556 source:d:\hesburger aplikacija\src\produkti\brokastis.cpp
 	"brokastis.h"
 	"Lietotajs.h"
 	"USER.H"
@@ -270,14 +270,14 @@
 1529249518 e:\hesburger aplikacija\include\produkti\brokastis.h
 	<produktii.h>
 
-1529250936 e:\hesburger aplikacija\include\produkti\produktii.h
+1529330840 e:\hesburger aplikacija\include\produkti\produktii.h
 	<iostream>
 	<iostream>
 	<fstream>
 	<string>
 	<stdio.h>
 
-1529248110 e:\hesburger aplikacija\include\produkti\burgerss.h
+1529311804 e:\hesburger aplikacija\include\produkti\burgerss.h
 	<produktii.h>
 	<iostream>
 
@@ -288,7 +288,7 @@
 1526286128 e:\hesburger aplikacija\include\produkti\bonus.h
 	<produktii.h>
 
-1529249860 source:e:\hesburger aplikacija\src\produkti\brokastis.cpp
+1529315556 source:e:\hesburger aplikacija\src\produkti\brokastis.cpp
 	"brokastis.h"
 	"Lietotajs.h"
 	"USER.H"
@@ -330,7 +330,7 @@
 1526287594 e:\hesburger aplikacija\include\produkti\smutujs.h
 	<produktii.h>
 
-1529249024 source:e:\hesburger aplikacija\src\produkti\burgerss.cpp
+1529315588 source:e:\hesburger aplikacija\src\produkti\burgerss.cpp
 	"burgerss.h"
 	<iostream>
 	"Lietotajs.h"
@@ -350,14 +350,14 @@
 1529248110 e:\hesburger aplikacija\include\produkti\kartupelis.h
 	<produktii.h>
 
-1529248110 source:e:\hesburger aplikacija\src\produkti\tortila.cpp
+1529330804 source:e:\hesburger aplikacija\src\produkti\tortila.cpp
 	"tortila.h"
 	"Lietotajs.h"
 
-1529248110 e:\hesburger aplikacija\include\produkti\tortila.h
+1529330804 e:\hesburger aplikacija\include\produkti\tortila.h
 	"produktii.h"
 
-1529250936 source:e:\hesburger aplikacija\src\produkti\produktii.cpp
+1529331332 source:e:\hesburger aplikacija\src\produkti\produktii.cpp
 	"produktii.h"
 	"Lietotajs.h"
 	<Lietotajs.h>
@@ -370,11 +370,11 @@
 	<stdio.h>
 	<sstream>
 
-1529250936 e:\hesburger aplikacija\include\user.h
+1529331758 e:\hesburger aplikacija\include\user.h
 	<string>
 	<Lietotajs.h>
 
-1528828164 source:e:\hesburger aplikacija\src\user.cpp
+1529330822 source:e:\hesburger aplikacija\src\user.cpp
 	"USER.h"
 	<iostream>
 	<fstream>
@@ -383,12 +383,24 @@
 	<iomanip>
 	<fstream>
 	<stdio.h>
+	<sstream>
+	<Lietotajs.h>
+	"Admin.h"
+	"produktii.h"
+	"tortila.h"
+	"brokastis.h"
+	"burgerss.h"
+	"kartupelis.h"
+	"salats.h"
+	"merce.h"
+	"dzeriens.h"
+	"deserts.h"
 
 1529250936 d:\hesburger aplikacija\include\user.h
 	<string>
 	<Lietotajs.h>
 
-1529312060 source:d:\hesburger aplikacija\src\user.cpp
+1529315556 source:d:\hesburger aplikacija\src\user.cpp
 	"USER.h"
 	<iostream>
 	<fstream>
@@ -560,28 +572,28 @@
 	<Lietotajs.h>
 	"Admin.h"
 
-1529248107 source:c:\users\user\desktop\hesburger aplikacija\main.cpp
+1529336356 source:c:\users\user\desktop\hesburger aplikacija\main.cpp
 	<iostream>
 	"include\Admin.h"
 	"include\Guest.h"
 	"USER.H"
 
-1529248107 c:\users\user\desktop\hesburger aplikacija\include\admin.h
+1529336359 c:\users\user\desktop\hesburger aplikacija\include\admin.h
 	<iostream>
 	"Lietotajs.h"
 
-1529248107 c:\users\user\desktop\hesburger aplikacija\include\lietotajs.h
+1529336359 c:\users\user\desktop\hesburger aplikacija\include\lietotajs.h
 	<iostream>
 
-1529248107 c:\users\user\desktop\hesburger aplikacija\include\guest.h
+1529336359 c:\users\user\desktop\hesburger aplikacija\include\guest.h
 	<string>
 	<iostream>
 
-1529250935 c:\users\user\desktop\hesburger aplikacija\include\user.h
+1529336360 c:\users\user\desktop\hesburger aplikacija\include\user.h
 	<string>
 	<Lietotajs.h>
 
-1529249275 source:c:\users\user\desktop\hesburger aplikacija\src\admin.cpp
+1529336361 source:c:\users\user\desktop\hesburger aplikacija\src\admin.cpp
 	<iostream>
 	<fstream>
 	<string>
@@ -600,39 +612,39 @@
 	"dzeriens.h"
 	"deserts.h"
 
-1529250935 c:\users\user\desktop\hesburger aplikacija\include\produkti\produktii.h
+1529349179 c:\users\user\desktop\hesburger aplikacija\include\produkti\produktii.h
 	<iostream>
 	<iostream>
 	<fstream>
 	<string>
 	<stdio.h>
 
-1529248108 c:\users\user\desktop\hesburger aplikacija\include\produkti\tortila.h
+1529336360 c:\users\user\desktop\hesburger aplikacija\include\produkti\tortila.h
 	"produktii.h"
 
-1529249517 c:\users\user\desktop\hesburger aplikacija\include\produkti\brokastis.h
+1529336360 c:\users\user\desktop\hesburger aplikacija\include\produkti\brokastis.h
 	<produktii.h>
 
-1529248108 c:\users\user\desktop\hesburger aplikacija\include\produkti\burgerss.h
+1529336360 c:\users\user\desktop\hesburger aplikacija\include\produkti\burgerss.h
 	<produktii.h>
 	<iostream>
 
-1529248108 c:\users\user\desktop\hesburger aplikacija\include\produkti\kartupelis.h
+1529348752 c:\users\user\desktop\hesburger aplikacija\include\produkti\kartupelis.h
 	<produktii.h>
 
-1529248108 c:\users\user\desktop\hesburger aplikacija\include\produkti\salats.h
+1529349037 c:\users\user\desktop\hesburger aplikacija\include\produkti\salats.h
 	<produktii.h>
 
-1529248108 c:\users\user\desktop\hesburger aplikacija\include\produkti\merce.h
+1529348894 c:\users\user\desktop\hesburger aplikacija\include\produkti\merce.h
 	<produktii.h>
 
-1529248108 c:\users\user\desktop\hesburger aplikacija\include\produkti\dzeriens.h
+1529348590 c:\users\user\desktop\hesburger aplikacija\include\produkti\dzeriens.h
 	<produktii.h>
 
-1529248108 c:\users\user\desktop\hesburger aplikacija\include\produkti\deserts.h
+1529349179 c:\users\user\desktop\hesburger aplikacija\include\produkti\deserts.h
 	<produktii.h>
 
-1529250031 source:c:\users\user\desktop\hesburger aplikacija\src\lietotajs.cpp
+1529336361 source:c:\users\user\desktop\hesburger aplikacija\src\lietotajs.cpp
 	"Lietotajs.h"
 	<iostream>
 	<fstream>
@@ -645,35 +657,35 @@
 	"Admin.h"
 	"USER.H"
 
-1529249858 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\brokastis.cpp
+1529336361 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\brokastis.cpp
 	"brokastis.h"
 	"Lietotajs.h"
 	"USER.H"
 
-1529249022 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\burgerss.cpp
+1529336361 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\burgerss.cpp
 	"burgerss.h"
 	<iostream>
 	"Lietotajs.h"
 
-1529248108 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\deserts.cpp
+1529349179 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\deserts.cpp
 	"deserts.h"
 	"Lietotajs.h"
 
-1529248108 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\dzeriens.cpp
+1529348642 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\dzeriens.cpp
 	"dzeriens.h"
 	"produktii.h"
 	"Lietotajs.h"
 
-1529248109 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\kartupelis.cpp
+1529348752 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\kartupelis.cpp
 	"kartupelis.h"
 	"Lietotajs.h"
 
-1529248109 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\merce.cpp
+1529348894 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\merce.cpp
 	"merce.h"
 	"Lietotajs.h"
 	"produktii.h"
 
-1529250458 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\produktii.cpp
+1529349179 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\produktii.cpp
 	"produktii.h"
 	"Lietotajs.h"
 	<Lietotajs.h>
@@ -686,16 +698,16 @@
 	<stdio.h>
 	<sstream>
 
-1529248109 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\salats.cpp
+1529349037 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\salats.cpp
 	"salats.h"
 	"Lietotajs.h"
 	<iostream>
 
-1529248109 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\tortila.cpp
+1529336362 source:c:\users\user\desktop\hesburger aplikacija\src\produkti\tortila.cpp
 	"tortila.h"
 	"Lietotajs.h"
 
-1529249785 source:c:\users\user\desktop\hesburger aplikacija\src\user.cpp
+1529349235 source:c:\users\user\desktop\hesburger aplikacija\src\user.cpp
 	"USER.h"
 	<iostream>
 	<fstream>
@@ -705,6 +717,174 @@
 	<fstream>
 	<stdio.h>
 	<sstream>
+	<cstdlib>
 	<Lietotajs.h>
 	"Admin.h"
+	"produktii.h"
+	"tortila.h"
+	"brokastis.h"
+	"burgerss.h"
+	"kartupelis.h"
+	"salats.h"
+	"merce.h"
+	"dzeriens.h"
+	"deserts.h"
+
+1529329287 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\main.cpp
+	<iostream>
+	"include\Admin.h"
+	"include\Guest.h"
+	"USER.H"
+
+1529329294 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\admin.h
+	<iostream>
+	"Lietotajs.h"
+
+1529329295 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\lietotajs.h
+	<iostream>
+
+1529329295 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\guest.h
+	<string>
+	<iostream>
+
+1529330002 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\user.h
+	<string>
+	<Lietotajs.h>
+
+1529329297 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\src\lietotajs.cpp
+	"Lietotajs.h"
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<iomanip>
+	<fstream>
+	<stdio.h>
+	<sstream>
+	"Admin.h"
+	"USER.H"
+
+1529329297 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\src\produkti\brokastis.cpp
+	"brokastis.h"
+	"Lietotajs.h"
+	"USER.H"
+
+1529329295 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\produkti\brokastis.h
+	<produktii.h>
+
+1529329295 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\produkti\produktii.h
+	<iostream>
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+
+1529329297 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\src\produkti\burgerss.cpp
+	"burgerss.h"
+	<iostream>
+	"Lietotajs.h"
+
+1529329295 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\produkti\burgerss.h
+	<produktii.h>
+	<iostream>
+
+1529329297 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\src\produkti\deserts.cpp
+	"deserts.h"
+	"Lietotajs.h"
+
+1529329295 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\produkti\deserts.h
+	<produktii.h>
+
+1529329297 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\src\produkti\dzeriens.cpp
+	"dzeriens.h"
+	"produktii.h"
+	"Lietotajs.h"
+
+1529329295 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\produkti\dzeriens.h
+	<produktii.h>
+
+1529329297 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\src\produkti\kartupelis.cpp
+	"kartupelis.h"
+	"Lietotajs.h"
+
+1529329295 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\produkti\kartupelis.h
+	<produktii.h>
+
+1529329297 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\src\admin.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<iomanip>
+	<stdlib.h>
+	"Lietotajs.h"
+	"Admin.h"
+	"produktii.h"
+	"tortila.h"
+	"brokastis.h"
+	"burgerss.h"
+	"kartupelis.h"
+	"salats.h"
+	"merce.h"
+	"dzeriens.h"
+	"deserts.h"
+
+1529329295 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\produkti\tortila.h
+	"produktii.h"
+
+1529329295 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\produkti\salats.h
+	<produktii.h>
+
+1529329295 c:\users\user\desktop\ldzzzzz\hesburger aplikacija\include\produkti\merce.h
+	<produktii.h>
+
+1529329298 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\src\produkti\merce.cpp
+	"merce.h"
+	"Lietotajs.h"
+	"produktii.h"
+
+1529329298 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\src\produkti\produktii.cpp
+	"produktii.h"
+	"Lietotajs.h"
+	<Lietotajs.h>
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<iomanip>
+	<fstream>
+	<stdio.h>
+	<sstream>
+
+1529329298 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\src\produkti\salats.cpp
+	"salats.h"
+	"Lietotajs.h"
+	<iostream>
+
+1529329298 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\src\produkti\tortila.cpp
+	"tortila.h"
+	"Lietotajs.h"
+
+1529330108 source:c:\users\user\desktop\ldzzzzz\hesburger aplikacija\src\user.cpp
+	"USER.h"
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+	<iomanip>
+	<fstream>
+	<stdio.h>
+	<sstream>
+	<cstdlib>
+	<Lietotajs.h>
+	"Admin.h"
+	"produktii.h"
+	"tortila.h"
+	"brokastis.h"
+	"burgerss.h"
+	"kartupelis.h"
+	"salats.h"
+	"merce.h"
+	"dzeriens.h"
+	"deserts.h"
 

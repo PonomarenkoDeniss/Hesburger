@@ -11,6 +11,7 @@ class dzeriens : public produktii
         virtual ~dzeriens();
 
         void dzerienss();
+        void NopirktDzer();
 
     protected:
 

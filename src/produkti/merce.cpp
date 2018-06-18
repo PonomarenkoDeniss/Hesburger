@@ -21,9 +21,8 @@ void merce::sous(){
 
     cout<<""<<endl;
     cout<<"1-Dzest:"<<endl;
-    cout<<"2-Labot:"<<endl;
-    cout<<"3-Pievienot:"<<endl;
-    cout<<"4-BACK"<<endl;
+    cout<<"2-Pievienot:"<<endl;
+    cout<<"3-BACK"<<endl;
     cout<<""<<endl;
 
     cin>>izvele;
@@ -34,15 +33,23 @@ void merce::sous(){
             nosaukums="merce.txt";
             nosaukumss="temp.txt";
             dzesana(nosaukums,nosaukumss);
-        break;}
+            break;
+        }
 
-        case 3:{
+        case 2:{
             string nosaukums,temp;
             nosaukums="merce.txt";
             temp="merce";
             produktii * arg = new produktii;
             arg->pievienosana(nosaukums,temp);
-        break;}
+            break;
+        }
     }
+}
 
+void merce::nopirktMerce(){
+    string nosaukums;
+    nosaukums="merce.txt";
+    produktii * kek = new produktii;
+    kek->Nopirkt(nosaukums);
 }

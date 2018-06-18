@@ -11,6 +11,7 @@ class salats : public produktii
         virtual ~salats();
 
         void salat();
+        void nopirktSalats();
 
     protected:
 

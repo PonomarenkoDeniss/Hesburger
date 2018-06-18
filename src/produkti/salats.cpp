@@ -21,9 +21,8 @@ void salats::salat(){
 
     cout<<""<<endl;
     cout<<"1-Dzest:"<<endl;
-    cout<<"2-Labot:"<<endl;
-    cout<<"3-Pievienot:"<<endl;
-    cout<<"4-BACK"<<endl;
+    cout<<"2-Pievienot:"<<endl;
+    cout<<"3-BACK"<<endl;
     cout<<""<<endl;
 
     cin>>izvele;
@@ -34,16 +33,22 @@ void salats::salat(){
             nosaukums="salats.txt";
             nosaukumss="temp.txt";
             dzesana(nosaukums,nosaukumss);
-        break;}
-        case 3:{
+            break;
+        }
+        case 2:{
             string nosaukums,temp;
             nosaukums="salats.txt";
             temp="salats";
             produktii * arg = new produktii;
             arg->pievienosana(nosaukums,temp);
-        break;}
+            break;
+        }
     }
+}
 
-
-
+void salats::nopirktSalats(){
+    string nosaukums;
+    nosaukums="salats.txt";
+    produktii * kek = new produktii;
+    kek->Nopirkt(nosaukums);
 }

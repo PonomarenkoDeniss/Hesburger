@@ -23,8 +23,7 @@ void kartupelis::kartowka(){
 
     cout<<""<<endl;
     cout<<"1-Dzest:"<<endl;
-    cout<<"2-Labot:"<<endl;
-    cout<<"3-Pievienot:"<<endl;
+    cout<<"2-Pievienot:"<<endl;
     cout<<"4-BACK"<<endl;
     cout<<""<<endl;
 
@@ -39,7 +38,7 @@ void kartupelis::kartowka(){
             a->dzesana(nosaukums,nosaukumss);
         break;}
 
-        case 3:{
+        case 2:{
             string nosaukums,temp;
             nosaukums="kartupelis.txt";
             temp="kartupelis";
@@ -48,4 +47,11 @@ void kartupelis::kartowka(){
         break;}
     }
 
+}
+
+void kartupelis::nopirktKart(){
+    string nosaukums;
+    nosaukums="katrupelis.txt";
+    produktii * kek = new produktii;
+    kek->Nopirkt(nosaukums);
 }

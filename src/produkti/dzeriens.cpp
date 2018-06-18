@@ -22,9 +22,8 @@ void dzeriens::dzerienss(){
 
     cout<<""<<endl;
     cout<<"1-Dzest:"<<endl;
-    cout<<"2-Labot:"<<endl;
-    cout<<"3-Pievienot:"<<endl;
-    cout<<"4-BACK"<<endl;
+    cout<<"2-Pievienot:"<<endl;
+    cout<<"3-BACK"<<endl;
     cout<<""<<endl;
 
     cin>>izvele;
@@ -40,7 +39,7 @@ void dzeriens::dzerienss(){
 
 
 
-        case 3:{
+        case 2:{
             string nosaukums,temp;
             nosaukums="dzeriens.txt";
             temp="dzeriens";
@@ -50,4 +49,12 @@ void dzeriens::dzerienss(){
     }
 
 
+}
+
+
+void dzeriens:: NopirktDzer(){
+    string nosaukums;
+    nosaukums="dzeriens.txt";
+    produktii * kek = new produktii;
+    kek->Nopirkt(nosaukums);
 }

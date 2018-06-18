@@ -11,6 +11,7 @@ class merce : public produktii
         virtual ~merce();
 
         void sous();
+        void nopirktMerce();
 
     protected:
 
